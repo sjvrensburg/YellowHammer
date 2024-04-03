@@ -1,0 +1,14 @@
+Package: YellowHammer
+Title: YellowHammer: Inequality Constrained Nonlinear Optimisation
+Version: 0.0.0.9000
+Authors@R: 
+    person("Stéfan", "Janse van Rensburg", , "stefanj@mandala.ac.za", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-0749-2277"))
+Description: Modified version of ALABAMA (Augmented Lagrangian Adaptive Barrier Minimization Algorithm) for optimising smooth nonlinear objective functions with nonlinear inequality constraints.
+License: GPL (>= 3)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+Imports: 
+    marqLevAlg,
+    numDeriv
